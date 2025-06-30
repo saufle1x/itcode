@@ -1,5 +1,5 @@
 # pythoncode
-## How to install / run
+## How to install
 #### Windows
 1. Go to [python.org/downloads](https://www.python.org/downloads/windows/)
 2. Download the latest Python version for Windows.
