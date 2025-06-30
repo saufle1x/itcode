@@ -13,3 +13,16 @@ Open your terminal and run:
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip
+```
+
+
+### macOS
+   1. Open the Terminal.
+   2. If you don't have Homebrew installed, run:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+   3. Then install Python:
+```
+   brew install python
+```
