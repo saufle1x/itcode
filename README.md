@@ -24,5 +24,34 @@ sudo apt install python3 python3-pip
 ```
    3. Then install Python:
 ```
-   brew install python
+brew install python
+```
+
+## How to Start
+1. Using Terminal / Command Prompt
+    Open Terminal (Linux/macOS) or Command Prompt / PowerShell (Windows).
+    Navigate to the folder where your Python script (your_script.py) is located. For example:
+```
+cd path/to/your/script
+```
+Run the script with:
+```
+python3 your_script.py
+```
+On Windows, if python3 doesn’t work, try:
+```
+python your_script.py
+```
+2. Using Python Interactive Shell (IDLE)
+    Open IDLE (comes with Python installation).
+    Open your Python file:
+    File → Open → Select your .py file.
+    Run the script:
+    Run → Run Module (or press F5).
+3. Using VS Code
+   Open your .py file in Visual Studio Code.
+   Make sure the Python extension is installed.
+   Run your script by pressing the Run button or using the terminal inside VS Code:
+```
+python3 your_script.py
 ```
