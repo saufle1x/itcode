@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+</head>
+<body style="background: url('images/fon.png') no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif;">
+
+    <h2 style="text-align: center;">Реєстрація нового користувача</h2>
+    
+    <form action="#" method="post" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; width: 300px; margin: 0 auto; border: 1px solid #ccc; border-radius: 10px;">
+        <p>
+            <label for="login">Ваш логін (псевдонім):</label><br>
+            <input type="text" id="login" name="login" required>
+        </p>
+        <p>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="password">Пароль:</label><br>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+            <label for="confirm-password">Підтвердьте пароль:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </p>
+        <p>
+            <label for="surname">Прізвище:</label><br>
+            <input type="text" id="surname" name="surname" required>
+        </p>
+        <p>
+            <label for="name">Ім'я:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+            <label for="patronymic">По батькові:</label><br>
+            <input type="text" id="patronymic" name="patronymic">
+        </p>
+        <p>
+            <label for="dob">Дата народження:</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+        <p>
+            Стать:<br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Чоловіча</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Жіноча</label>
+        </p>
+        <p>
+            <label for="city">Місто проживання:</label><br>
+            <input type="text" id="city" name="city">
+        </p>
+        <p>
+            Освіта:<br>
+            <input type="radio" id="higher" name="education" value="higher">
+            <label for="higher">Вища</label><br>
+            <input type="radio" id="incomplete" name="education" value="incomplete">
+            <label for="incomplete">Незакінчена</label><br>
+            <input type="radio" id="special" name="education" value="special">
+            <label for="special">Середня спеціальна</label><br>
+            <input type="radio" id="general" name="education" value="general">
+            <label for="general">Середня</label>
+        </p>
+        <p>
+            <button type="submit">Зареєструватися</button>
+            <button type="reset">Очистити форму</button>
+        </p>
+    </form>
+
+</body>
+</html>
