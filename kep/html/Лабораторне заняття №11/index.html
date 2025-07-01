@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню піц</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #333;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f4b183;
+            color: #fff;
+            font-size: 1.2em;
+        }
+        .pizza-name {
+            font-weight: bold;
+            color: #d35400;
+        }
+        .price, .diameter {
+            color: #2c3e50;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .contact {
+            text-align: right;
+            margin-right: 5%;
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Піца</h1>
+    <p>Замовляйте піцу на будь-який смак</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Зображення</th>
+                <th>Діаметр</th>
+                <th>Інгредієнти</th>
+                <th>Вартість</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="pizza-name">ЧОТИРИ СЕЗОНИ</td>
+                <td><img src="images/Чотири_сири.png" alt="Піца Чотири сезони"></td>
+                <td class="diameter">30 - 110 грн<br>50 - 187 грн</td>
+                <td>соус пелаті, шинка, гриби, сир</td>
+                <td class="price">110 - 187 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ТУННА-ПІЦА</td>
+                <td><img src="images/тунна-піца.png" alt="Тунна-піца"></td>
+                <td class="diameter">30 - 82 грн<br>50 - 145 грн</td>
+                <td>тунець, сир, томати</td>
+                <td class="price">82 - 145 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ТРЕНТО</td>
+                <td><img src="images/тренто.png" alt="Піца Тренто"></td>
+                <td class="diameter">30 - 70 грн<br>50 - 140 грн</td>
+                <td>рукола, прошутто, сир</td>
+                <td class="price">70 - 140 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ТОСКАНА</td>
+                <td><img src="images/тосана.png" alt="Піца Тоскана"></td>
+                <td class="diameter">30 - 55 грн<br>50 - 112 грн</td>
+                <td>шинка, соус, сир</td>
+                <td class="price">55 - 112 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">САЛЯМІ</td>
+                <td><img src="images/салямі.png" alt="Піца Салямі"></td>
+                <td class="diameter">30 - 55 грн<br>50 - 95 грн</td>
+                <td>салямі, помідори, сир</td>
+                <td class="price">55 - 95 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ПРОВАНСАЛЕ</td>
+                <td><img src="images/провансале.png" alt="Піца Провансале"></td>
+                <td class="diameter">30 - 65 грн<br>50 - 125 грн</td>
+                <td>томати, маслини, сир</td>
+                <td class="price">65 - 125 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ПАППЕРОНІ</td>
+                <td><img src="images/паппероні.png" alt="Піца Паппероні"></td>
+                <td class="diameter">30 - 75 грн<br>50 - 132 грн</td>
+                <td>салямі, соус, сир</td>
+                <td class="price">75 - 132 грн</td>
+            </tr>
+            <tr>
+                <td class="pizza-name">ПІКАНТЕ</td>
+                <td><img src="images/піканте.png" alt="Піца Піканте"></td>
+                <td class="diameter">30 - 70 грн<br>50 - 140 грн</td>
+                <td>пепероні, сир, перець</td>
+                <td class="price">70 - 140 грн</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">Замовляйте найкращу піцу у нас</div>
+    <div class="contact">Наші контакти: тел. 55-53-321</div>
+</body>
+</html>
