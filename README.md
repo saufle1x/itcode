@@ -1,2 +1,2 @@
-# ITCode
-Project my own Codes
+# PythonCode
+Project my own code on Python
